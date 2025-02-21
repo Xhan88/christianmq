@@ -1,14 +1,37 @@
+// import CustomCursor from "./cursor-custom/CustomCursor";
+// import './App.css'
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <CustomCursor />
+    
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import { useState, useEffect } from "react";
 import CustomCursor from "./cursor-custom/CustomCursor";
-import './App.css'
+import "./App.css";
+import Preloader from "./preloading/Preloader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simula la carga de la página
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div className="App">
       <CustomCursor />
-      <h1>Efecto de cursor como Brittany Chiang</h1>
-      <p>Mueve el ratón para ver el efecto.</p>
-      <a href="#" className="hover-effect">Enlace con efecto</a>
-      <button className="hover-effect">Botón con efecto</button>
+      {loading && <Preloader />}  {/* Preloader solo se muestra cuando loading es true */}
+      {!loading && <h1>Bienvenido a mi página</h1>}
     </div>
   );
 }
