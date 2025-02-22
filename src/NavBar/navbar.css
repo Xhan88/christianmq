@@ -1,0 +1,14 @@
+
+.img-nav {
+    height: 5rem;
+    border-radius: 30%;
+    filter: var(--green-color);
+}
+
+ul{
+    color: var(--light-color);
+}
+
+span {
+    color: var(--green-color);
+}

@@ -1,4 +1,4 @@
-// import CustomCursor from "./cursor-custom/CustomCursor";
+
 // import './App.css'
 
 // function App() {
@@ -16,23 +16,28 @@ import { useState, useEffect } from "react";
 import CustomCursor from "./cursor-custom/CustomCursor";
 import "./App.css";
 import Preloader from "./preloading/Preloader";
+import NavBar from "./NavBar/NavBar";
+
 
 function App() {
+  
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Simula la carga de la página
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
 
   return (
-    <div className="App">
+    <div className={`App ${loading ? "" : "loaded"}`}>
       <CustomCursor />
-      {loading && <Preloader />}  {/* Preloader solo se muestra cuando loading es true */}
-      {!loading && <h1>Bienvenido a mi página</h1>}
+      
+      {loading ? <Preloader /> : <NavBar />} {/* Muestra Preloader si está cargando, sino muestra el contenido */}
+     
     </div>
+    
   );
 }
 

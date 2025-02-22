@@ -3,7 +3,7 @@ import "./Preloader.css"; // Importa los estilos
 const Preloader = () => {
   return (
     <div className="preloader">
-      <img src="/480.gif" alt="Cargando..." />
+      <img src="/480.png" alt="Cargando..." />
     </div>
   );
 };
