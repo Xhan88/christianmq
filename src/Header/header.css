@@ -1,0 +1,31 @@
+.gretting-container {
+   margin: 10%;
+   padding: 5%;
+   padding-top: 1%;
+   box-sizing: border-box;
+   line-height: 30px;
+}
+
+.greting {
+    color: var(--green-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 13px;
+}
+
+.name {
+    color: var(--light-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 60px;
+}
+
+.name-tex-section {
+    color: var( --grey-color);
+    font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    font-size: 60px;
+}
+
+p {
+    color: var(--light-color);
+    font-family:  Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    padding-right: 30%;
+}
