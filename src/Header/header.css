@@ -29,3 +29,24 @@ p {
     font-family:  Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
     padding-right: 30%;
 }
+
+.btn-github {
+    display: inline-block;
+    color: var(--green-color);
+    background-color: transparent;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    line-height: 1;
+    text-decoration: none;
+    /* margin-left: 5%; */
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-github:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 0px var(--green-color);
+    transition: .5s;
+}
