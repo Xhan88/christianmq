@@ -1,14 +1,87 @@
-
-.img-nav {
-    height: 5rem;
-    border-radius: 30%;
-    filter: var(--green-color);
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
 }
+
+.nav-container ol{
+    display: flex;
+      
+}
+
+.nav-container li {
+    margin: 20px;
+    padding-left: 20px;
+    color: var(--light-color);
+    list-style: none;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 13px;
+    
+}
+ 
+.nav-container ol li:hover  {
+     color: var(--green-color);
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+    border-radius: 30%;
+    overflow: hidden; /* Asegura que la capa no se salga del borde */
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .img-nav {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen al tamaño del div */
+  }
+  
+  .img-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 255, 218, 0.1);/* Color negro con 50% de opacidad */
+  }
+  .img-container:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transition: 1s;
+  }
 
 ul{
     color: var(--light-color);
+}
+ol li{
+    cursor: pointer;
 }
 
 span {
     color: var(--green-color);
 }
+
+.btn-navbar {
+        display: inline-block;
+        color: var(--green-color);
+        background-color: transparent;
+        border: 1px solid var(--green-color);
+        border-radius: 5px;
+        padding: 0.65rem 0.80rem;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        line-height: 1;
+        text-decoration: none;
+        margin-left: 15px;
+        font-size: 13px;
+        cursor: pointer;
+}
+ 
+  .btn-navbar:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 0px var(--green-color);
+    transition: .5s;
+}
+ 
