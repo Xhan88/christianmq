@@ -1,5 +1,4 @@
-
-  /* --- ESTILOS GENERALES DEL NAVBAR --- */
+/* --- ESTILOS GENERALES DEL NAVBAR --- */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -77,75 +76,15 @@ span {
   box-shadow: 5px 5px 0px var(--green-color);
 }
 
-/* --- BOTÓN HAMBURGUESA (Solo en móviles) --- */
-.hamburgesa {
-  display: none; /* Oculto en pantallas grandes */
-  font-size: 28px;
-  cursor: pointer;
-  color: var(--green-color);
-  background: none;
-  border: none;
-}
-
-/* --- MENÚ RESPONSIVE --- */
-@media (max-width: 768px) {
-  /* Mostrar el botón hamburguesa */
-  .hamburgesa {
-    display: block;
-    z-index: 999;
-    margin-right: 10px;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  }
-
-  /* Ocultar la lista por defecto */
-  .list {
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.9);
-    width: 20rem;
-    height: 80vh;
-    flex-direction: column;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    transform: translateY(-20px);
-    opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    
-  }
-
-  /* Mostrar el menú cuando está abierto */
-  .list.open {
-    display: flex;
-    align-items: center;
-    transform: translateY(0);
-    opacity: 1;
-  }
-
-  /* Ajustes de los elementos en el menú móvil */
-  .list li {
-    margin: 20px 0;
-    padding: 20px;
-  }
-
-  /* Ajuste del botón Resume en móviles */
-  .btn-navbar {
-    width: 50%;
-    text-align: center;
-    margin-top: 10px;
-  }
-}
-
-/* --- BOTÓN HAMBURGUESA ANIMADO --- */
+/* --- BOTÓN HAMBURGUESA --- */
 .hamburguesa {
   display: none;
   width: 30px;
   height: 30px;
   cursor: pointer;
-  position: relative;
+  position: fixed;
   z-index: 1001;
+  right: 20px;
 }
 
 .hamburguesa span {
@@ -155,7 +94,7 @@ span {
   background: var(--green-color);
   border-radius: 5px;
   position: absolute;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 
 /* Línea superior */
@@ -187,7 +126,7 @@ span {
   transform: translateY(-10px) rotate(-45deg);
 }
 
-/* --- RESPONSIVE PARA MOSTRAR EL BOTÓN --- */
+/* --- MENÚ RESPONSIVE --- */
 @media (max-width: 768px) {
   .hamburguesa {
     display: block;
@@ -208,7 +147,7 @@ span {
     text-align: center;
     transform: translateY(-100%);
     opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.8s ease, opacity 0.3s ease;
     z-index: 999;
   }
 
@@ -216,6 +155,17 @@ span {
     display: flex;
     transform: translateY(0);
     opacity: 1;
-    transition: .5s;
+    transition: .9s;
+  }
+
+  .list li {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .btn-navbar {
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
   }
 }
