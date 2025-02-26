@@ -69,3 +69,10 @@
       padding-right: 0;
     }
 }
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+ .gretting-container {
+    margin: 12%;
+    margin-left: 22%;
+ }
+}
