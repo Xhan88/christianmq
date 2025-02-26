@@ -9,7 +9,7 @@ const Header = () => {
       </p>
       <h1 className="name">Christian Martínez.</h1>
       <h2 className="name-tex-section">I build things for the web.</h2>
-      <p className="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor in sunt aspernatur suscipit consectetur, dignissimos commodi. Labore dolore est quibusdam repellat repellendus! Praesentium minus odio debitis aut distinctio expedita repellendus.</p>
+      <p className="description">I am a web developer with 4 years of experience in creating websites using Elementor, WordPress, GitHub, MUI, and Bootstrap. I have solid knowledge of HTML, CSS, JavaScript, and React.js. I am continuously improving my skills and learning new technologies.</p>
       <a 
           href="https://github.com/Xhan88" 
           target="_blank" 
