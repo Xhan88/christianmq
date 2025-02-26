@@ -1,5 +1,6 @@
 .gretting-container {
-   margin: 10%;
+   margin: 5%;
+   margin-left: 8%;
    padding: 5%;
    padding-top: 1%;
    box-sizing: border-box;
@@ -24,10 +25,10 @@
     font-size: 60px;
 }
 
-p {
-    color: var(--light-color);
+.description {
+    color: var(--grey-color);
     font-family:  Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
-    padding-right: 30%;
+    padding-right: 40%;
 }
 
 .btn-github {
@@ -40,7 +41,6 @@ p {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     line-height: 1;
     text-decoration: none;
-    /* margin-left: 5%; */
     font-size: 13px;
     cursor: pointer;
 }

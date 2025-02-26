@@ -1,87 +1,221 @@
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 2%;
+
+  /* --- ESTILOS GENERALES DEL NAVBAR --- */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  position: relative;
+  z-index: 100;
 }
 
-.nav-container ol{
-    display: flex;
-      
-}
-
-.nav-container li {
-    margin: 20px;
-    padding-left: 20px;
-    color: var(--light-color);
-    list-style: none;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-    font-size: 13px;
-    
-}
- 
-.nav-container ol li:hover  {
-     color: var(--green-color);
-}
-
+/* --- IMAGEN / LOGO --- */
 .img-container {
-    display: inline-block;
-    position: relative;
-    border-radius: 30%;
-    overflow: hidden; /* Asegura que la capa no se salga del borde */
-    width: 5rem;
-    height: 5rem;
-  }
-  
-  .img-nav {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajusta la imagen al tamaño del div */
-  }
-  
-  .img-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(100, 255, 218, 0.1);/* Color negro con 50% de opacidad */
-  }
-  .img-container:hover {
-    background-color: aqua;
-    cursor: pointer;
-    transition: 1s;
-  }
-
-ul{
-    color: var(--light-color);
+  display: inline-block;
+  position: relative;
+  border-radius: 30%;
+  overflow: hidden; 
+  width: 5rem;
+  height: 5rem;
 }
-ol li{
-    cursor: pointer;
+
+.img-container:hover {
+  background-color: var(--green-color);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.img-nav {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* --- LISTA DE NAVEGACIÓN (Desktop) --- */
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.list li {
+  margin: 20px;
+  padding-left: 20px;
+  color: var(--light-color);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 13px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.list li:hover {
+  color: var(--green-color);
 }
 
 span {
-    color: var(--green-color);
+  color: var(--green-color);
 }
 
+/* --- BOTÓN RESUME --- */
 .btn-navbar {
-        display: inline-block;
-        color: var(--green-color);
-        background-color: transparent;
-        border: 1px solid var(--green-color);
-        border-radius: 5px;
-        padding: 0.65rem 0.80rem;
-        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-        line-height: 1;
-        text-decoration: none;
-        margin-left: 15px;
-        font-size: 13px;
-        cursor: pointer;
+  display: inline-block;
+  color: var(--green-color);
+  background-color: transparent;
+  border: 1px solid var(--green-color);
+  border-radius: 5px;
+  padding: 0.65rem 0.80rem;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  line-height: 1;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
- 
-  .btn-navbar:hover {
-    transform: translate(-5px, -5px);
-    box-shadow: 5px 5px 0px var(--green-color);
+
+.btn-navbar:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 0px var(--green-color);
+}
+
+/* --- BOTÓN HAMBURGUESA (Solo en móviles) --- */
+.hamburgesa {
+  display: none; /* Oculto en pantallas grandes */
+  font-size: 28px;
+  cursor: pointer;
+  color: var(--green-color);
+  background: none;
+  border: none;
+}
+
+/* --- MENÚ RESPONSIVE --- */
+@media (max-width: 768px) {
+  /* Mostrar el botón hamburguesa */
+  .hamburgesa {
+    display: block;
+    z-index: 999;
+    margin-right: 10px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  }
+
+  /* Ocultar la lista por defecto */
+  .list {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 20rem;
+    height: 80vh;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    
+  }
+
+  /* Mostrar el menú cuando está abierto */
+  .list.open {
+    display: flex;
+    align-items: center;
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* Ajustes de los elementos en el menú móvil */
+  .list li {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  /* Ajuste del botón Resume en móviles */
+  .btn-navbar {
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* --- BOTÓN HAMBURGUESA ANIMADO --- */
+.hamburguesa {
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1001;
+}
+
+.hamburguesa span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--green-color);
+  border-radius: 5px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+
+/* Línea superior */
+.hamburguesa span:nth-child(1) {
+  top: 0;
+}
+
+/* Línea media */
+.hamburguesa span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Línea inferior */
+.hamburguesa span:nth-child(3) {
+  bottom: 0;
+}
+
+/* --- ANIMACIÓN AL ABRIR EL MENÚ --- */
+.hamburguesa.open span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburguesa.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburguesa.open span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* --- RESPONSIVE PARA MOSTRAR EL BOTÓN --- */
+@media (max-width: 768px) {
+  .hamburguesa {
+    display: block;
+  }
+
+  .list {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 999;
+  }
+
+  .list.open {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
     transition: .5s;
+  }
 }
- 
