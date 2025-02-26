@@ -1,4 +1,4 @@
-import "./Preloader.css"; // Importa los estilos
+import "./preloader.css"; // Importa los estilos
 
 const Preloader = () => {
   return (
