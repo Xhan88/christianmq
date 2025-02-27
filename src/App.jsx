@@ -18,6 +18,7 @@ import "./App.css";
 import Preloader from "./preloading/Preloader";
 import NavBar from "./NavBar/NavBar";
 import Header from "./Header/Header";
+import AboutMe from "./AboutMe/AboutMe";
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
       <>
         <NavBar />
         <Header />
-        {/* Aquí puedes agregar más componentes que solo se rendericen cuando loading sea false */}
+        {<AboutMe />}
       </>
     )}
   </div>

@@ -3,7 +3,7 @@ import "./navbar.css"
 
 const NavBar = () => {
 
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
