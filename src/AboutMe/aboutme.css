@@ -5,9 +5,12 @@
 }
 
 .img-chan {
+    margin-top: 30%;
     width: 15rem;
-    height: 15rem;
+    height: 20rem;
+    border-radius: 5px;
 }
+
 
 .text-container {
     padding-right: 5%;
@@ -25,7 +28,14 @@
 }
 
 .order-list {
+    font-family:Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: (--grey-colo);
+    color: var(--grey-color);
+    list-style: none;
+}
+
+.order-list span {
+    font-size: 13px;
+
 }

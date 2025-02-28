@@ -16,16 +16,16 @@ const AboutMe = () => {
       </p>
       <p>Technologies I’ve been working with recently:</p>
       <ul className='order-list'>
-        <li><span>▻</span> JavaScript (ES6+)</li>
-        <li><span>▻</span>React</li>
-        <li><span>▻</span>HTML</li>
-        <li><span>▻</span>CSS</li>
-        <li><span>▻</span>Node.js</li>
-        <li><span>▻</span>WordPress</li>
+        <li><span>▻</span>   JavaScript (ES6+)</li>
+        <li><span>▻</span>   React</li>
+        <li><span>▻</span>   HTML</li>
+        <li><span>▻</span>   CSS</li>
+        <li><span>▻</span>   Node.js</li>
+        <li><span>▻</span>   WordPress</li>
       </ul>
       </div>
-    <div className='img-chan'>
-        <img src="./481.png" alt="" />
+    <div >
+        <img className='img-chan'src="./482.jpg" alt="" />
     </div>
       
     </div>
