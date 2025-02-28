@@ -1,0 +1,31 @@
+.about-me-container {
+    display: flex;
+    margin: 15%;
+    gap: 30px;
+}
+
+.img-chan {
+    width: 15rem;
+    height: 15rem;
+}
+
+.text-container {
+    padding-right: 5%;
+}
+
+.text-container h1 {
+    color: var(--light-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.text-container p {
+    color: var(--grey-color);
+    font-family:Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    line-height: 30px;
+}
+
+.order-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: (--grey-colo);
+}
