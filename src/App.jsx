@@ -37,14 +37,4 @@ function App() {
 }
 
 export default App;
-//     <div className={`App ${loading ? "" : "loaded"}`}>
-//       <CustomCursor />
-      
-//       {loading ? <Preloader /> : <NavBar />  /* Muestra Preloader si está cargando, sino muestra el contenido */}
-//       <Header />
-//     </div>
-    
-//   );
-// }
 
-// export default App;
