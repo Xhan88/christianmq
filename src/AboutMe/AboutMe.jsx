@@ -1,5 +1,4 @@
-import "./AboutMe.css"
-
+import "/src/AboutMe/AboutMe.css"; 
 const AboutMe = () => {
   return (
     <div className="about-me-container">
