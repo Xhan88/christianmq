@@ -1,17 +1,4 @@
 
-// import './App.css'
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <CustomCursor />
-    
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import { useState, useEffect } from "react";
 import CustomCursor from "./cursor-custom/CustomCursor";
 import "./App.css";
