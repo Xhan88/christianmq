@@ -39,3 +39,25 @@
     font-size: 13px;
 
 }
+
+@media (max-width: 768px) {
+    .about-me-container {
+        display: block;
+        margin: 5%;
+        margin-top: 70%;
+    }
+    .text-container h1 {
+        font-size: 20px;
+    }
+
+    .img-chan{
+        margin: 15%;
+    }
+
+    .img-chan:hover {   
+        background-color: var(--green-color);
+        cursor: pointer;
+        transition: 1s;
+    }
+
+}
