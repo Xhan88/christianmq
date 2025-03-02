@@ -6,6 +6,7 @@ import Preloader from "./preloading/Preloader";
 import NavBar from "./NavBar/NavBar";
 import Header from "./Header/Header";
 import AboutMe from "./AboutMe/AboutMe";
+import WorkExperience from "./Trabajos/WorkExperience";
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       <>
         <NavBar />
         <Header />
-        {<AboutMe />}
+        <AboutMe />  
+        <WorkExperience />
       </>
     )}
   </div>
