@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="about-me-container">
      <div className="text-container">
-      <h1><span>01.</span> About Me  ──────────────</h1>
+      <h1 className="title-about"><span>01.</span> About Me  ──────────────</h1>
       <p>
       Hello! I’m a front-end developer passionate about crafting responsive and dynamic web experiences. My journey into web development started four years ago, and since then, I’ve been honing my skills in JavaScript, React.js, HTML, CSS, and WordPress.
       </p>
