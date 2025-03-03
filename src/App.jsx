@@ -7,6 +7,7 @@ import NavBar from "./NavBar/NavBar";
 import Header from "./Header/Header";
 import AboutMe from "./AboutMe/AboutMe";
 import WorkExperience from "./Trabajos/WorkExperience";
+import MyProyects from "./Proyects/MyProyects";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Header />
         <AboutMe />  
         <WorkExperience />
+        <MyProyects />
       </>
     )}
   </div>

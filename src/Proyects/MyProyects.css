@@ -1,0 +1,47 @@
+.section-three {
+    color: var(--light-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    display: flex;
+    margin: 20%;
+}
+
+.works-conteiner {
+    margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-proyects {
+    width: 40rem;
+}
+
+.studie-proyects {
+    color: var(--green-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.style-works h3{
+    color: var(--light-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.list-tecnology {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: var(--grey-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.content-description {
+    position: relative;
+    background-color: #112240;
+    border-radius: 5px;
+    width: 30rem;
+    color: var(--grey-color);
+    padding: 30px;
+    font-family:Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    
+}
