@@ -3,9 +3,11 @@
     justify-content: center;
     font-family:  'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     color: var(--light-color);
+    margin-top: 10rem;
 }
 
 .experience-container {
+  font-family:  'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     display: flex;
     max-width: 800px;
     margin: auto;
@@ -27,7 +29,7 @@
     top: 0;
     width: 2px;
     height: 100%;
-    background-color: #d1d5db;
+    background-color: block;
   }
   
   .green-indicator {
@@ -54,20 +56,30 @@
     color: var(--green-color);
   }
   
-  .description {
+  .description2 {
     width: 70%;
     padding-left: 20px;
-    border-left: 2px solid #d1d5db;
+    border-left: .5px solid #d1d5db;
+    height: 20rem;
   }
   
-  .description h2 {
+  .description2 h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #1f2937;
+    color: var(--light-color);
   }
   
-  .description p {
+  .description2 p {
     margin-top: 10px;
     color: #6b7280;
+  }
+
+  @media(max-width: 768px) {
+    .green-indicator {
+      height: 30px;
+    }
+    .sidebar {
+      gap: 30px;
+    }
   }
   

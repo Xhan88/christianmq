@@ -2,16 +2,16 @@ import { useState } from "react";
 import "./WorkExperience.css"; // Importamos los estilos
 
 const experiences = [
-  { id: 1, company: "Empresa A", description: "Descripción del trabajo en Empresa A" },
-  { id: 2, company: "Empresa B", description: "Descripción del trabajo en Empresa B" },
-  { id: 3, company: "Empresa C", description: "Descripción del trabajo en Empresa C" },
-  { id: 4, company: "Empresa D", description: "Descripción del trabajo en Empresa D" },
+  { id: 1, company: "Empresa A", description: "Descripción del trabajo en Empresa A Descripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa A" },
+  { id: 2, company: "Empresa B", description: "Descripción del trabajo en Empresa B Descripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa A" },
+  { id: 3, company: "Empresa C", description: "Descripción del trabajo en Empresa C Descripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa A" },
+  { id: 4, company: "Empresa D", description: "Descripción del trabajo en Empresa DDescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa ADescripción del trabajo en Empresa A" },
   { id: 5, company: "Empresa E", description: "Descripción del trabajo en Empresa E" }
 ];
 
 export default function WorkExperience() {
   const [selectedId, setSelectedId] = useState(1);
-  const itemHeight = 40;
+  const itemHeight = 43;
 
   return (
     <>
@@ -35,7 +35,7 @@ export default function WorkExperience() {
           </button>
         ))}
       </div>
-      <div className="description">
+      <div className="description2">
         <h2>{experiences.find((exp) => exp.id === selectedId).company}</h2>
         <p>{experiences.find((exp) => exp.id === selectedId).description}</p>
       </div>
