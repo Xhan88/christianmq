@@ -5,13 +5,14 @@
     margin: 20%;
 }
 
-.works-conteiner {
-    margin: 0px auto;
-    padding: 100px 0px;
-    max-width: 1000px;
+.style-works {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 2rem; /* Espaciado entre columnas */
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+  }
 
 .img-proyects {
     width: 40rem;
