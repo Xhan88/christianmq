@@ -4,9 +4,13 @@ const MyProyects = () => {
   return (
     <div>
       <h1 className="section-three"><span>03. </span>Some Things I’ve Built ──────────────</h1>
-      <div className='works-conteiner'>
+    
         
         <section className='style-works'>
+        <div>
+            <img className='img-proyects' src="./483.png" alt="works" />
+            </div>
+            
             <div className='information-works'>
                         <p className='studie-proyects'>Lorem ipsum dolor </p>
                     <h3>hello world</h3>
@@ -25,13 +29,10 @@ const MyProyects = () => {
             </div>
             
             
-            <div>
-            <img className='img-proyects' src="./483.png" alt="works" />
-            </div>
-            
+           
         </section>
       </div>
-    </div>
+    
   )
 }
 
