@@ -16,7 +16,7 @@ const MyProyects = () => {
                             <li>lorem</li>
                             <li>lorem</li>
                             <li>lorem</li>
-                            <li>lorem</li>
+                            
                     </ul>
                     <div>
                         <a href="">github</a>
