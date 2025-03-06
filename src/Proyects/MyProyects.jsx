@@ -29,14 +29,12 @@ const MyProyects = () => {
            
         </section>
 
-        <section className='style-works'>
-        <div>
-            <img className='img-proyects' src="./483.png" alt="works" />
-            </div>       
-            <div className='information-works'>
+        <section className='style-works-reverce'>
+                
+            <div className='information-works-reverce'>
                         <p className='studie-proyects'>Lorem ipsum dolor </p>
                         <h3>hello world</h3>
-                        <p className='content-description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi beatae autem nemo asperiores veritatis quia dignissimos inventore nihil aliquid nostrum. ignissimos inventore nihil aliquid nostrumignissimos inventore nihil aliquid nostrum</p>
+                        <p className='content-description-reverce'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi beatae autem nemo asperiores veritatis quia dignissimos inventore nihil aliquid nostrum. ignissimos inventore nihil aliquid nostrumignissimos inventore nihil aliquid nostrum</p>
                     <ul className='list-tecnology'>
                             <li>lorem</li>
                             <li>lorem</li>
@@ -48,6 +46,10 @@ const MyProyects = () => {
                         <a href="">github</a>
                         <a href="">page</a>
                     </div>
+
+                    <div>
+                    <img className='img-proyects-reverce' src="./483.png" alt="works" />
+                    </div> 
             </div>
             
             
