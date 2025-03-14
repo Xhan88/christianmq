@@ -168,3 +168,20 @@
 
     
 }
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  
+
+    .style-works {
+        width: 20rem;
+        margin: 0 28% 10%;
+    }
+
+    .style-works-reverce {
+        margin-left: 43rem;
+    }
+
+    .section-three{
+        margin-left: 28%;
+    }
+}
