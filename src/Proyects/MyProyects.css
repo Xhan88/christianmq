@@ -107,6 +107,24 @@
     z-index: 1;
 }
 
+.icon {
+    
+    width: 24px;
+    height: 24px;
+    fill: black;
+    transition: fill 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .icon:hover {
+    color: var(--green-color);
+  }
+
+  .iconWorks {
+    color: var(--light-color);
+  }
+
 
 @media (max-width: 768px) {
     .style-works{

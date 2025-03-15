@@ -1,4 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; 
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
+
 import './MyProyects.css'
 
 const MyProyects = () => {
@@ -23,9 +27,9 @@ const MyProyects = () => {
                             <li>Responsive</li>                           
                     </ul>
 
-                    <div>
-                    <FontAwesomeIcon icon="fa-brands fa-github" />
-                        <a href="">page</a>
+                    <div className='iconsWorks'> 
+                    <FontAwesomeIcon icon={faGithub} className="icon" />
+                    <FontAwesomeIcon icon={faLink} className='icon'/>
                     </div>
             </div>
             
@@ -47,8 +51,12 @@ const MyProyects = () => {
                     </ul>
 
                     <div>
-                        <a href="">github</a>
-                        <a href="">page</a>
+
+                    <div className='iconWorks'> 
+                    <FontAwesomeIcon icon={faGithub} className="icon" />
+                    <FontAwesomeIcon icon={faLink} className='icon'/>
+                    </div>
+
                     </div>
                     <div>
                     <a href="https://pedicure-clinico-susy-sanchez.netlify.app/" target='_blank'>
@@ -69,19 +77,21 @@ const MyProyects = () => {
             <img className='img-proyects' src="./485.png" alt="works" />
             </div>       
             <div className='information-works'>
-                        <p className='studie-proyects'>Lorem ipsum dolor </p>
-                        <h3>hello world</h3>
-                        <p className='content-description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi beatae autem nemo asperiores veritatis quia dignissimos inventore nihil aliquid nostrum. ignissimos inventore nihil aliquid nostrumignissimos inventore nihil aliquid nostrum</p>
+                        <p className='studie-proyects'>Tienda de Juguetes</p>
+                        <h3>Proyecto Final CoderHouse</h3>
+                        <p className='content-description'>ToyStore Online is a digital toy store developed with React.js, HTML, CSS, JavaScript, and Bootstrap, using FireStore as the database. This Coderhouse capstone project, with a passing grade, offers a modern and dynamic experience that makes exploring toys easy. It features a shopping cart, authentication, and responsive design for intuitive and engaging navigation.</p>
                     <ul className='list-tecnology'>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>                           
+                            <li>React.js</li>
+                            <li>Bootstrap</li>
+                            <li>Firestore</li>
+                            <li>ReactRD</li>                           
                     </ul>
 
                     <div>
-                        <a href="">github</a>
-                        <a href="">page</a>
+                    <div className='iconsWorks'> 
+                    <FontAwesomeIcon icon={faGithub} className="icon" />
+                    <FontAwesomeIcon icon={faLink} className='icon'/>
+                    </div>
                     </div>
             </div>
             
