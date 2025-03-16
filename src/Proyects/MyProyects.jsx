@@ -28,8 +28,15 @@ const MyProyects = () => {
                     </ul>
 
                     <div className='iconsWorks'> 
-                    <FontAwesomeIcon icon={faGithub} className="icon" />
-                    <FontAwesomeIcon icon={faLink} className='icon'/>
+                        
+                        <a href="https://github.com/Xhan88/Christian-Butcher" target='_blanck'>
+                         <FontAwesomeIcon icon={faGithub} className="icon"/>
+                        </a>
+
+                        <a href="https://butcher-martinez-christian.netlify.app/"  target='_blanck'>
+                        <FontAwesomeIcon icon={faLink} className='icon'/>
+                        </a>
+            
                     </div>
             </div>
             
@@ -53,8 +60,13 @@ const MyProyects = () => {
                     <div>
 
                     <div className='iconWorks'> 
-                    <FontAwesomeIcon icon={faGithub} className="icon" />
-                    <FontAwesomeIcon icon={faLink} className='icon'/>
+                    <a href="https://github.com/Xhan88/pedicure-susy" target='_blanck'>
+                         <FontAwesomeIcon icon={faGithub} className="icon"/>
+                        </a>
+
+                        <a href="https://pedicure-clinico-susy-sanchez.netlify.app/" target='_blanck'>
+                        <FontAwesomeIcon icon={faLink} className='icon' />
+                        </a>
                     </div>
 
                     </div>
@@ -89,8 +101,13 @@ const MyProyects = () => {
 
                     <div>
                     <div className='iconsWorks'> 
-                    <FontAwesomeIcon icon={faGithub} className="icon" />
-                    <FontAwesomeIcon icon={faLink} className='icon'/>
+                    <a href="https://github.com/Xhan88/proyecto-final-e-commerce" target='_blanck'>
+                         <FontAwesomeIcon icon={faGithub} className="icon"/>
+                        </a>
+
+                        <a href="https://proyectofinalcoderhouseecommerce.netlify.app/" target='_blanck'>
+                        <FontAwesomeIcon icon={faLink} className='icon' />
+                        </a>
                     </div>
                     </div>
             </div>

@@ -115,15 +115,16 @@
     transition: fill 0.3s ease-in-out;
     cursor: pointer;
     margin: 5px;
+    color: var(--light-color);
   }
   
   .icon:hover {
     color: var(--green-color);
   }
 
-  .iconWorks {
+  /* .iconWorks {
     color: var(--light-color);
-  }
+  } */
 
 
 @media (max-width: 768px) {
