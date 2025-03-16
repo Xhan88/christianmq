@@ -93,7 +93,7 @@ const MyProyects = () => {
                         <h3>Proyecto Final CoderHouse</h3>
                         <p className='content-description'>ToyStore Online is a digital toy store developed with React.js, HTML, CSS, JavaScript, and Bootstrap, using FireStore as the database. This Coderhouse capstone project, with a passing grade, offers a modern and dynamic experience that makes exploring toys easy. It features a shopping cart, authentication, and responsive design for intuitive and engaging navigation.</p>
                     <ul className='list-tecnology'>
-                            <li>React.js</li>
+                            
                             <li>Bootstrap</li>
                             <li>Firestore</li>
                             <li>ReactRD</li>                           
