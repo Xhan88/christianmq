@@ -8,6 +8,8 @@ import Header from "./Header/Header";
 import AboutMe from "./AboutMe/AboutMe";
 import WorkExperience from "./Trabajos/WorkExperience";
 import MyProyects from "./Proyects/MyProyects";
+import Card from "./OtherProyects/Card";
+import { CardProvider } from "../CardContext";
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
   }, []);
 
   return (
+    <CardProvider>
     <div className={`App ${loading ? "" : "loaded"}`}>
     <CustomCursor />
     
@@ -34,9 +37,11 @@ function App() {
         <AboutMe />  
         <WorkExperience />
         <MyProyects />
+        <Card />
       </>
     )}
   </div>
+  </CardProvider>
 );
 }
 
