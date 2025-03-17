@@ -1,0 +1,19 @@
+.card-icons {
+    display:flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+.style-cards {
+    width: 300px; 
+    height: 300px;
+    padding: 20px; 
+    border-radius: 5px;
+    background: #112240;
+}
+
+.position-cards {
+    display: flex;
+     justify-content: center; 
+     gap: 30px; 
+}

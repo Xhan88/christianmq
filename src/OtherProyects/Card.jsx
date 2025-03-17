@@ -1,26 +1,42 @@
 import { useContext } from "react";
+import "./Card.css"
 import { CardContext } from "../../CardContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFolder, faLink } from "@fortawesome/free-solid-svg-icons";
 
 
 const Card = () => {
   const { cardsData } = useContext(CardContext);
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", gap: "30px" }}>
+    <>
+    <div className="title-other-works">
+        <h1>Other Noteworthy Projects</h1>
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+    <div className="position-cards">
       {cardsData.map((card) => (
-        <div key={card.id} style={{ 
-            width: "300px",  // Cambia este valor para ajustar el ancho
-            height: "300px", // Cambia este valor para ajustar la altura
-            border: "1px solid #ddd", 
-            padding: "20px", 
-            borderRadius: "8px" 
-        }}>  
+        <div className="style-cards" key={card.id}>  
+
+    <div className="card-icons">
+                    <a href="https://proyectofinalcoderhouseecommerce.netlify.app/" target='_blanck'>
+                        <FontAwesomeIcon icon={faLink} className='icon' />
+                    </a>
+
+                    <a href="">
+                        <FontAwesomeIcon icon={faFolder} style={{color:"var(--green-color)", fontSize: "30px"}}/>
+                    </a>
+
+    </div>
+               
+
           <h3>{card.title}</h3>
           <p>{card.description}</p>
-          <img src={card.image} alt={card.title} style={{ width: "100px", height: "100px" }} />
+          
         </div>
       ))}
     </div>
+    </>
   );
 };
 
