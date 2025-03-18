@@ -29,9 +29,11 @@ const Card = () => {
 
     </div>
                
-
-          <h3>{card.title}</h3>
-          <p>{card.description}</p>
+        <div className="text-cards">
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
+        </div>
+          
           
         </div>
       ))}

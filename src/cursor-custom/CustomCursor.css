@@ -11,11 +11,11 @@
     filter: blur(6rem);
     z-index: -1;
   }
-  
+/*   
   .custom-cursor.hovering {
     width: 90px;
     height: 90px;
     background-color: rgb(194, 197, 136);
     border: 20px solid rgb(163, 177, 130);
     filter: blur(6rem);
-  }
+  } */
