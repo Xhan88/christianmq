@@ -10,12 +10,39 @@
 
 .contact-data p {
     color: var(--grey-color);
+    margin: 0 30%;
+    font-family:  'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
 }
+
+.btn-email {
+    display: inline-block;
+    justify-content: center;
+    color: var(--green-color);
+    background-color: transparent;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+    padding: 0.65rem 0.80rem;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    line-height: 1;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .btn-email:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 0px var(--green-color);
+  }
 
 .end-title {
     color: var(--green-color);
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-data {
