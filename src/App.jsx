@@ -10,6 +10,7 @@ import WorkExperience from "./Trabajos/WorkExperience";
 import MyProyects from "./Proyects/MyProyects";
 import Card from "./OtherProyects/Card";
 import { CardProvider } from "../CardContext";
+import Contact from "./Contact/Contact";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <WorkExperience />
         <MyProyects />
         <Card />
+        <Contact />
       </>
     )}
   </div>
