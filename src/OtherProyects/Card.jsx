@@ -19,8 +19,8 @@ const Card = () => {
         <div className="style-cards" key={card.id}>  
 
     <div className="card-icons">
-                    <a href="https://proyectofinalcoderhouseecommerce.netlify.app/" target='_blanck'>
-                        <FontAwesomeIcon icon={faLink} className='icon' />
+                    <a href={card.link} target="_blanck">
+                        <FontAwesomeIcon icon={faLink} className='icon' href="https://cristian-pruebas-wordpress-1.617iip.easypanel.host/"/>
                     </a>
 
                     <a href="">
