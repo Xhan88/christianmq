@@ -1,5 +1,7 @@
 .contact-data h2{
     color: var(--light-color);
+    font-size: 60px;
+    font-family:  'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
 }
 
 .contact-data h4 {
@@ -7,5 +9,19 @@
 }
 
 .contact-data p {
-    
+    color: var(--grey-color);
+}
+
+.end-title {
+    color: var(--green-color);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 16px;
+}
+
+.contact-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
 }
