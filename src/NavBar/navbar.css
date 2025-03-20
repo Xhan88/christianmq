@@ -16,12 +16,16 @@
 
 .nav-container.hidden {
   transform: translateY(-100%);
+  
   opacity: 0;
 }
 
 .nav-container.visible {
   transform: translateY(0);
   opacity: 1;
+  
+
+  
 }
 
 

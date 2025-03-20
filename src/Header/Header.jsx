@@ -1,9 +1,10 @@
+import React from "react"
 import "./header.css"
 
-const Header = () => {
+const Header = React.forwardRef((props, ref) => {
   return (
     <>
-    <div className="gretting-container">
+    <div ref={ref} className="gretting-container" >
       <p className="greting">
           Hi, My name is
       </p>
@@ -22,7 +23,8 @@ const Header = () => {
        
     </>
    
-  )
-}
+  );
+});
 
+Header.displayName = "Header";
 export default Header

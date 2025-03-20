@@ -54,7 +54,7 @@ import { useState, useEffect } from "react";
 import "./navbar.css";
 
 // eslint-disable-next-line react/prop-types
-const NavBar = ({ aboutRef, workRef, projectsRef, contactRef }) => {
+const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [showNav, setShowNav] = useState(true);
@@ -87,7 +87,7 @@ const NavBar = ({ aboutRef, workRef, projectsRef, contactRef }) => {
 
   return (
     <div className={`nav-container ${showNav ? "visible" : "hidden"}`}>
-      <div className="img-container">
+      <div onClick={() => scrollToSection(HeaderRef)} className="img-container">
         <img className="img-nav" src="./481.png" alt="Logo" />
       </div>
 
