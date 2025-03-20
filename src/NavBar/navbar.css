@@ -8,7 +8,24 @@
   z-index: 100;
 }
 
-/* --- IMAGEN / LOGO --- */
+.nav-container {
+  position: sticky;
+  top: 0;
+  transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.nav-container.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.nav-container.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
 .img-container {
   display: inline-block;
   position: relative;
@@ -125,6 +142,8 @@ span {
 .hamburguesa.open span:nth-child(3) {
   transform: translateY(-10px) rotate(-45deg);
 }
+
+
 
 /* --- MENÚ RESPONSIVE --- */
 @media (max-width: 768px) {
