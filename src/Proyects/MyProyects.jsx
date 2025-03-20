@@ -4,10 +4,11 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 
 import './MyProyects.css'
+import React from 'react';
 
-const MyProyects = () => {
+const MyProyects = React.forwardRef((props, ref) => {
   return (
-    <div>
+    <div  ref={ref}>
       <h1 className="section-three"><span>03. </span>Some Things I’ve Built ────────────</h1> 
         <section className='style-works'>
         <div className='img-container2'>
@@ -117,7 +118,8 @@ const MyProyects = () => {
         </section>
       </div>
     
-  )
-}
+  );
+});
 
+MyProyects.displayName = "MyProyects";
 export default MyProyects

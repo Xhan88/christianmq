@@ -12,6 +12,8 @@
     color: var(--grey-color);
     margin: 0 30%;
     font-family:  'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    align-items: center;
+    text-align: center;
 }
 
 .btn-email {
