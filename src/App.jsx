@@ -180,11 +180,13 @@ function App() {
               <MyProyects />
             </div>
 
+            <Card />
+
             <div ref={contactRef}>
               <Contact />
             </div>
 
-            <Card />
+            
           </>
         )}
       </div>
