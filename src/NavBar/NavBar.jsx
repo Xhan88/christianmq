@@ -182,7 +182,10 @@ const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
         <li onClick={() => contactRef.current.scrollIntoView({ behavior: "smooth" })}>
           <span>04.</span> Contact
         </li>
+        <a href="./MartinezCv.pdf" target="_blank" rel="noopener noreferrer">
         <button className="btn-navbar">Resume</button>
+        </a>
+        
       </ol>
     </div>
   );
