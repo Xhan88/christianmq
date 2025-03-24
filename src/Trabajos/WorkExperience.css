@@ -70,6 +70,15 @@
     color: var(--light-color);
     font-family:'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
   }
+
+  .title-link {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .title-link h2:hover {
+    color: var(--green-color);
+  }
   
   .description2 p {
     margin-top: 10px;
