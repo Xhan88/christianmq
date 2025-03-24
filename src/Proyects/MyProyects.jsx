@@ -8,7 +8,7 @@ import React from 'react';
 
 const MyProyects = React.forwardRef((props, ref) => {
   return (
-    <div  ref={ref}>
+    <div className='container-three' ref={ref}>
       <h1 className="section-three"><span>03. </span>Some Things I’ve Built ────────────</h1> 
         <section className='style-works'>
         <div className='img-container2'>

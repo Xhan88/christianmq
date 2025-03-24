@@ -185,6 +185,10 @@
         flex-direction: row-reverse;
     }
 
+    .container-three{
+        margin-top: 20rem;
+    }
+
     
 }
 
