@@ -183,15 +183,21 @@ span {
     transition: .9s;
   }
 
-  .list li {
+  /* .list li {
     margin: 20px 0;
     padding: 20px;
-  }
+  } */
 
   .btn-navbar {
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin-top: 10px;
+  }
+
+  .img-container {
+    justify-content: center;
+    align-items: center;
+    
   }
 }
 

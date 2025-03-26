@@ -87,10 +87,16 @@
 
   @media(max-width: 768px) {
     .green-indicator {
-      height: 30px;
+      display: none;
     }
     .sidebar {
       gap: 30px;
+    }
+
+    .works-02 {
+      align-items: center;
+      font-size: 25px;
+      justify-content: center;
     }
 
   }
