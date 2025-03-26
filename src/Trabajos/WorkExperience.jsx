@@ -21,9 +21,9 @@ const WorkExperience = forwardRef((props, ref) => {
   return (
     <>
       <div>
-        <h1 className="works-02" ref={ref}> <span>02. </span>  Where I’ve Worked ────</h1>
+        <h1 data-aos="fade-up" className="works-02" ref={ref}> <span>02. </span>  Where I’ve Worked ────</h1>
       </div>
-      <div className="experience-container" >
+      <div data-aos="fade-up" className="experience-container" >
         <div className="sidebar">
           <div className="vertical-line"></div>
           <div

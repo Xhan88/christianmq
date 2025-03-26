@@ -11,10 +11,10 @@ const Card = () => {
   return (
     <>
     <div className="title-other-works">
-        <h1>Other Noteworthy Projects</h1>
-        <p>Lorem ipsum dolor sit.</p>
+        <h1 data-aos="fade-up">Other Noteworthy Projects</h1>
+        <p data-aos="fade-up">Lorem ipsum dolor sit.</p>
     </div>
-    <div className="position-cards">
+    <div data-aos="fade-up" className="position-cards">
       {cardsData.map((card) => (
         <div className="style-cards" key={card.id}>  
 
