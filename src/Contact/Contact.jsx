@@ -10,7 +10,7 @@ const Contact = React.forwardRef((props, ref) => {
             <h2 data-aos="fade-up">Get In Touch</h2>
             <p data-aos="fade-up">I`m currently looking for new opportunities, so my inbox is always open. If you have any questions or just want to say hello, I`ll do my best to get back to you.</p>
             <a href="mailto:christianmq888@gmail.com">
-              <button data-aos="fade-up" className="btn-email">Say Hello</button>
+              <button  className="btn-email" data-aos="fade-up">Say Hello</button>
             </a>
             
           </div>

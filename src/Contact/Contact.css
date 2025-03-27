@@ -16,7 +16,9 @@
     text-align: center;
 }
 
+
 .btn-email {
+    
     display: inline-block;
     justify-content: center;
     color: var(--green-color);
@@ -34,9 +36,11 @@
   }
   
   .btn-email:hover {
-    transform: translate(-5px, -5px);
-    box-shadow: 5px 5px 0px var(--green-color);
-  }
+    transform: translate(-5px, -5px) !important;
+    box-shadow: 5px 5px 0px var(--green-color) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
 
 .end-title {
     color: var(--green-color);

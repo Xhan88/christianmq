@@ -46,9 +46,9 @@
 }
 
 .btn-github:hover {
-    transform: translate(-5px, -5px);
-    box-shadow: 5px 5px 0px var(--green-color);
-    transition: .5s;
+    transform: translate(-5px, -5px) !important;
+    box-shadow: 5px 5px 0px var(--green-color) !important;
+    transition: .5s !important;
 }
 @media (max-width: 768px) {
     .gretting-container h1, h2 {
