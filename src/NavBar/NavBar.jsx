@@ -67,7 +67,7 @@ const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
         <li onClick={() => handleNavigation(contactRef)}>
           <span>04.</span> Contact
         </li>
-        <a href="./MartinezCv.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="./MartinezCV.pdf" target="_blank" rel="noopener noreferrer">
           <button className="btn-navbar">Resume</button>
         </a>
       </ol>
