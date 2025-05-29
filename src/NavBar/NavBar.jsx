@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import "./navbar.css";
 
 const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
@@ -31,11 +32,10 @@ const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
     };
   }, [lastScrollY]);
 
-  // Función para hacer scroll y cerrar menú
   const handleNavigation = (ref) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth" });
-      setMenuOpen(false); // Cierra el menú de hamburguesa
+      setMenuOpen(false); 
     }
   };
 
@@ -67,7 +67,7 @@ const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
         <li onClick={() => handleNavigation(contactRef)}>
           <span>04.</span> Contact
         </li>
-        <a href="./MartinezCV.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="./ChristianMartinez.pdf" target="_blank" rel="noopener noreferrer">
           <button className="btn-navbar">Resume</button>
         </a>
       </ol>
@@ -76,3 +76,26 @@ const NavBar = ({ HeaderRef, aboutRef, workRef, projectsRef, contactRef }) => {
 };
 
 export default NavBar;
+
+NavBar.propTypes = {
+  HeaderRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.any }),
+  ]),
+  aboutRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.any }),
+  ]),
+  workRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.any }),
+  ]),
+  projectsRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.any }),
+  ]),
+  contactRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.any }),
+  ]),
+};
