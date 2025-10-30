@@ -12,7 +12,7 @@ export const CardProvider = ({ children }) => {
     },
     {
       id: 2,
-      title: "Taqueria del Abuelo, hired to create the taqueria's website",
+      title: "Taquería del Abuelo, hired to create the Taquería's website",
       description: "Taquería del Abuelo's website, created with WordPress and Elementor, combines elegance and functionality. It features an interactive menu, the story of its founding family, and an attractive design that reflects tradition and quality, providing an immersive digital experience for its customers.",
       link: "https://cristian-pruebas-wordpress-2.617iip.easypanel.host/"
     },
