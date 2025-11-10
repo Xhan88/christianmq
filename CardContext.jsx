@@ -8,13 +8,13 @@ export const CardProvider = ({ children }) => {
       id: 1,
       title: "Develop a website for a Matamoros butcher shop using WordPress and Elements",
       description: "The Carnicería Matamoros website, developed with WordPress and Elementor Pro, offers an attractive design, intuitive navigation, and SEO optimization. With dynamic menus and featured promotions, they managed to increase their clientele by 20% this year, strengthening their digital presence.",
-      link: "https://cristian-pruebas-wordpress-1.617iip.easypanel.host/"
+      link: "https://carniceriamatamoros.codigomartinez.com/"
     },
     {
       id: 2,
       title: "Taquería del Abuelo, hired to create the Taquería's website",
       description: "Taquería del Abuelo's website, created with WordPress and Elementor, combines elegance and functionality. It features an interactive menu, the story of its founding family, and an attractive design that reflects tradition and quality, providing an immersive digital experience for its customers.",
-      link: "https://cristian-pruebas-wordpress-2.617iip.easypanel.host/"
+      link: "https://delabuelotaqueria.codigomartinez.com/"
     },
     {
       id: 3,

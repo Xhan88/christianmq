@@ -12,7 +12,8 @@ const Card = () => {
     <>
     <div className="title-other-works">
         <h1 data-aos="fade-up">Other Noteworthy Projects</h1>
-        <p data-aos="fade-up">Lorem ipsum dolor sit.</p>
+        <p data-aos="fade-up">
+        view the proyects</p>
     </div>
     <div data-aos="fade-up" className="position-cards">
       {cardsData.map((card) => (
