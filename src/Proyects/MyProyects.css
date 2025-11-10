@@ -122,11 +122,6 @@
     color: var(--green-color);
   }
 
-  /* .iconWorks {
-    color: var(--light-color);
-  } */
-
-
 @media (max-width: 768px) {
     .style-works{
         display: flex;

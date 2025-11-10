@@ -5,13 +5,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-blue); /* Fondo oscuro */
+    background: var(--color-blue); 
     z-index: 9999;
   }
   
   .preloader img {
-    width: 150px; /* Tamaño de la imagen */
-    animation: fadeIn 1.5s ease-in-out infinite alternate; /* Animación opcional */
+    width: 150px; 
+    animation: fadeIn 1.5s ease-in-out infinite alternate; 
   }
   
   @keyframes fadeIn {

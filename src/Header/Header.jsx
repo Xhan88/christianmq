@@ -7,7 +7,7 @@ const Header = React.forwardRef((props, ref) => {
  
   useEffect(() => {
     AOS.init({ duration: 1000 });
-    AOS.refresh(); // ✅ Ensures animations work even after dynamic content updates
+    AOS.refresh(); 
   }, []);
   
 

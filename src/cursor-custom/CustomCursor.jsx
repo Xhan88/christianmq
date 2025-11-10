@@ -18,10 +18,10 @@ const CustomCursor = () => {
       setIsHovering(false);
     };
 
-    // Escuchar el movimiento del mouse
+   
     window.addEventListener("mousemove", moveCursor);
 
-    // Escuchar hover en elementos interactivos
+    
     const interactiveElements = document.querySelectorAll("a, button, input, .hover-effect");
     interactiveElements.forEach((element) => {
       element.addEventListener("mouseenter", handleHover);
