@@ -18,8 +18,8 @@ const MyProyects = React.forwardRef((props, ref) => {
             
         </div>       
             <div className='information-works'>
-                        <p data-aos="fade-up" className='studie-proyects'>Christian Martinez </p>
-                        <h3 data-aos="fade-up">Professional Butcher</h3>
+                        <p data-aos="fade-up" className='studie-proyects'>Bel Ana</p>
+                        <h3 data-aos="fade-up">Pizzeria</h3>
                         <p data-aos="fade-up" className='content-description'>My professional butcher presentation website, developed with React,<span> HTML, and CSS</span> , offers an engaging visual experience with<span> Animate.css</span>  animations and <span> AOS</span>  hover effects. It showcases my expertise in boning, fine cuts, and customer service, highlighting my background in the meat industry with a modern and dynamic design.</p>
                     <ul data-aos="fade-up" className='list-tecnology'>
                             <li>HTML</li>
