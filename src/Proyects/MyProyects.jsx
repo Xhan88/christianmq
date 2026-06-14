@@ -12,7 +12,7 @@ const MyProyects = React.forwardRef((props, ref) => {
       <h1 className="section-three" data-aos="fade-up"><span>03. </span>Some Things I’ve Built ────────────</h1> 
         <section className='style-works'>
         <div className='img-container2'>
-            <a href="https://butcher-martinez-christian.netlify.app/" target='_blank'>
+            <a href="https://belanaproyect.netlify.app/" target='_blank'>
             <img data-aos="fade-up" className='img-proyects' src="./483.png" alt="works" />
             </a>
             
@@ -20,21 +20,21 @@ const MyProyects = React.forwardRef((props, ref) => {
             <div className='information-works'>
                         <p data-aos="fade-up" className='studie-proyects'>Bel Ana</p>
                         <h3 data-aos="fade-up">Pizzeria</h3>
-                        <p data-aos="fade-up" className='content-description'>My professional butcher presentation website, developed with React,<span> HTML, and CSS</span> , offers an engaging visual experience with<span> Animate.css</span>  animations and <span> AOS</span>  hover effects. It showcases my expertise in boning, fine cuts, and customer service, highlighting my background in the meat industry with a modern and dynamic design.</p>
+                        <p data-aos="fade-up" className='content-description'>I designed and developed a professional website for a local pizzeria using <span>React, TypeScript,</span>  and <span>Tailwind CSS.</span>  I implemented a responsive design, intuitive navigation, and a modern visual identity focused on improving the business&apos;s digital presence and customer experience.</p>
                     <ul data-aos="fade-up" className='list-tecnology'>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>React.js</li>
+                            <li>React</li>
+                            <li>Tailwind</li>
+                            <li>TypeScript</li>
                             <li>Responsive</li>                           
                     </ul>
 
                     <div data-aos="fade-up" className='iconsWorks'> 
                         
-                        <a href="https://github.com/Xhan88/Christian-Butcher" target='_blanck'>
+                        <a href="https://github.com/Xhan88/pizzeria-bel-ana" target='_blanck'>
                          <FontAwesomeIcon icon={faGithub} className="icon"/>
                         </a>
 
-                        <a href="https://butcher-martinez-christian.netlify.app/"  target='_blanck'>
+                        <a href="https://belanaproyect.netlify.app/"  target='_blanck'>
                         <FontAwesomeIcon icon={faLink} className='icon'/>
                         </a>
             
