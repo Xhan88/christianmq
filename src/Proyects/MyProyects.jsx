@@ -48,31 +48,31 @@ const MyProyects = React.forwardRef((props, ref) => {
         <section className='style-works-reverce'>
                 
             <div className='information-works-reverce'>
-                        <p data-aos="fade-up" className='studie-proyects'>Pedicure Clínico</p>
-                        <h3 data-aos="fade-up" >Susy Sánchez</h3>
-                        <p data-aos="fade-up" className='content-description-reverce'>I developed a website for a clinical pedicure salon using React, HTML, CSS, React Router DOM, and MUI. This project, created after graduating from the Coderhouse bootcamp, helped improve the business`s digital presence, increasing its client base by 20% and providing a modern and intuitive experience.</p>
+                        <p data-aos="fade-up" className='studie-proyects'>Patas pirque</p>
+                        <h3 data-aos="fade-up" >Pet adoption platform</h3>
+                        <p data-aos="fade-up" className='content-description-reverce'>I developed frontend functionalities for a pet adoption platform using <span>React.js, Tailwind CSS,</span>  and <span>JavaScript</span>. I implemented advanced forms, REST API integration, user authentication, pet management, and adoption requests, contributing to an intuitive and scalable user experience.</p>
                     <ul data-aos="fade-up" className='list-tecnology'>
                             <li>React.js</li>
                             <li>React Router DOM</li>
-                            <li>MUI</li>
-                            <li>CSS</li>                           
+                            <li>Tailwind</li>
+                                                    
                     </ul>
 
                     <div>
 
                     <div data-aos="fade-up" className='iconWorks'> 
-                    <a href="https://github.com/Xhan88/pedicure-susy" target='_blanck'>
+                    <a href="https://github.com/Carolina2024/match_project" target='_blanck'>
                          <FontAwesomeIcon icon={faGithub} className="icon"/>
                         </a>
 
-                        <a href="https://pedicure-clinico-susy-sanchez.netlify.app/" target='_blanck'>
+                        <a href="https://match-adopcion-mascotas.vercel.app/" target='_blanck'>
                         <FontAwesomeIcon icon={faLink} className='icon' />
                         </a>
                     </div>
 
                     </div>
                     <div>
-                    <a href="https://pedicure-clinico-susy-sanchez.netlify.app/" target='_blank'>
+                    <a href="https://match-adopcion-mascotas.vercel.app/" target='_blank'>
                      <img data-aos="fade-up" className='img-proyects-reverce' src="./484.png" alt="works" />
                     </a>
 
