@@ -90,9 +90,9 @@ const MyProyects = React.forwardRef((props, ref) => {
             <img data-aos="fade-up" className='img-proyects' src="./485.png" alt="works" />
             </div>       
             <div className='information-works'>
-                        <p data-aos="fade-up" className='studie-proyects'>Tienda de Juguetes</p>
-                        <h3 data-aos="fade-up">Proyecto Final CoderHouse</h3>
-                        <p data-aos="fade-up" className='content-description'>ToyStore Online is a digital toy store developed with React.js, HTML, CSS, JavaScript, and Bootstrap, using Firestore as the database. This Coderhouse capstone project, with a passing grade, offers a modern and dynamic experience that makes exploring toys easy. It features a shopping cart, authentication, and responsive design for intuitive and engaging navigation.</p>
+                        <p data-aos="fade-up" className='studie-proyects'>Código Fuente</p>
+                        <h3 data-aos="fade-up">digital marketing agency</h3>
+                        <p data-aos="fade-up" className='content-description'>Founder and developer of <span>Código Fuente</span>, an agency focused on helping local businesses and entrepreneurs strengthen their digital presence through modern website development, brand optimization, and digital marketing strategies. Responsible for creating <span>responsive websites</span> , designing user experiences, implementing technological solutions, and providing direct client support to drive their online growth.</p>
                     <ul data-aos="fade-up" className='list-tecnology'>
                             
                             <li>Bootstrap</li>
