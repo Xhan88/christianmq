@@ -95,9 +95,9 @@ const MyProyects = React.forwardRef((props, ref) => {
                         <p data-aos="fade-up" className='content-description'>Founder and developer of <span>Código Fuente</span>, an agency focused on helping local businesses and entrepreneurs strengthen their digital presence through modern website development, brand optimization, and digital marketing strategies. Responsible for creating <span>responsive websites</span> , designing user experiences, implementing technological solutions, and providing direct client support to drive their online growth.</p>
                     <ul data-aos="fade-up" className='list-tecnology'>
                             
-                            <li>Bootstrap</li>
-                            <li>Firestore</li>
-                            <li>ReactRD</li>                           
+                            <li>React.js</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind</li>                           
                     </ul>
 
                     <div>

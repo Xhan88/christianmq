@@ -36,13 +36,13 @@
 
 .img-container-chan {
     position: relative;
-    display: inline-block;
-    overflow: hidden;
     margin-top: 10%;
+    flex-shrink: 0;
 }
 
 .img-chan {
-    width: 100%;
+    width: 320px;
+    height: auto;
     display: block;
     border-radius: 5px;
 }
@@ -50,14 +50,12 @@
 .img-container-chan::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 81%; 
+    height: 68%;
+    inset: 0;
     background: #64ffda;
     mix-blend-mode: multiply;
-    transition: opacity 0.3s ease-in-out;
     border-radius: 5px;
+    transition: opacity 0.3s ease;
 }
 
 .img-container-chan:hover::after {
@@ -81,7 +79,7 @@
     }
 
     .img-container-chan::after {
-        width: 100%;
+        width: 90%;
         height: 100%;
         margin-left: 5%;
         border-radius: 5px;
@@ -100,6 +98,6 @@
     }
 
     .img-container-chan::after {
-        height: 83.5%;
+        height: 71.6%;
     }
 }
